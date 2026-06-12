@@ -19,3 +19,13 @@ color_name,channel1,channel2,channel3,channel4,channel5,channel6,channel7,channe
 ## Output
 
 The notebook prints a paste-ready C array for the sorter classifier centroids and the updated unknown threshold.
+
+## Current role in the workflow
+
+The notebook is now a reference and fallback analysis tool. The nominal calibration workflow runs directly from the Uno Q SBC web app, which can:
+
+- capture labeled CSV samples
+- reset or download the CSV
+- run the centroid analysis locally without Jupyter
+- save the generated plots locally
+- display the paste-ready C++ output for the sorter classifier
